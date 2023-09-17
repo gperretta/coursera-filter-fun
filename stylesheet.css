@@ -1,0 +1,96 @@
+h1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 25px;
+    margin: 8px;
+}
+
+#canvas {
+    width: 800px;
+    height: 400px;
+    border: 2px solid;
+    border-radius: .25rem;
+    margin: 8px;
+}
+
+#redbtn {
+    background-color: red;
+}
+
+#greenbtn {
+    background-color: green;
+}
+
+#bluebtn {
+    background-color: blue;
+}
+
+#rainbowbtn {
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+#greybtn {
+    background-color: grey;
+}
+
+#blurbtn {
+    background-color: lightgrey;
+}
+
+#resetbtn {
+    background-color: white;
+}
+
+#clearbtn {
+    background-color: white;
+}
+
+#uploadbtn {
+    margin: 8px;
+}
+
+.genericbtn {
+    width: 128px;
+    height: 64px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    cursor: pointer;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    transition: box-shadow .15s, transform .15s;
+    margin: 8px;
+}
+
+.genericbtn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0;
+    transform: translateY(-2px);
+}
+
+
+.layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-col {
+    width: 70%;
+}
+
+.right-col {
+    width: 30%;
+}

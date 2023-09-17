@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Filter Fun Project</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</head>
+
+<body>
+
+    <h1>Filter Fun</h1>
+    <h3>Upload your image and have fun with filters! &#128247;&#10024;</h3>
+
+    <div>
+        <input type="file" multiple="false" accept="image/*" id="upload" onchange="onLoadImage()">
+    </div>
+
+    <div class="layout">
+        <div class="left-col">
+            <div>
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+        <div class="right-col">
+            <input type="button" id="redbtn" class="genericbtn" onclick="applyRedHue()" value="Red Hue">
+            <input type="button" id="greenbtn" class="genericbtn" onclick="applyGreenHue()" value="Green Hue">
+            <input type="button" id="bluebtn" class="genericbtn" onclick="applyBlueHue()" value="Blue Hue">
+            <input type="button" id="rainbowbtn" class="genericbtn" onclick="applyRainbow()" value="Rainbow">
+            <input type="button" id="greybtn" class="genericbtn" onclick="applyGreyscale()" value="GreyScale">
+            <input type="button" id="blurbtn" class="genericbtn" onclick="applyBlur()" value="Blur">
+            <input type="button" id="clearbtn" class="genericbtn" onclick="clearCanvas()" value="Clear">
+            <input type="button" id="resetbtn" class="genericbtn" onclick="resetFilters()" value="Reset">
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="./filters.js"></script>
+</body>
+
+</html>
