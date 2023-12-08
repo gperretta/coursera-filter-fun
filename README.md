@@ -6,8 +6,6 @@
 </p>
 <br>
 
-![Immagine 2023-09-17 182613](https://github.com/gperretta/filter-fun/assets/113616815/0b3b5a54-1b9b-4dde-873b-149e3c5d9e9a)
-
 <br>
 <h2>Highlights</h2>
 <ul>
