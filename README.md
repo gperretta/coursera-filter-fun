@@ -4,9 +4,7 @@
   <a href="https://www.coursera.org/programs/university-of-naples-on-coursera-ikjgg/learn/duke-programming-web">Programming Foundations with JavaScript, HTML and CSS</a>
   on Coursera.
 </p>
-<br>
 
-<br>
 <h2>Highlights</h2>
 <ul>
   <li>Use of basic HTML elements and HTML5 canvas.</li>
